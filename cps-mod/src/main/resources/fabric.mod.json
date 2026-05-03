@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cpsmod",
+  "version": "1.0.0",
+  "name": "CPS Mod для BedWars",
+  "description": "Показывает КПС (клики в секунду) на экране. Идеально для BedWars!",
+  "authors": ["you"],
+  "license": "MIT",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": ["com.cpsmod.CpsMod"],
+    "client": ["com.cpsmod.CpsModClient"]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
